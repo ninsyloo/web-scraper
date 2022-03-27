@@ -1,0 +1,29 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "web scraper created with JavaScript, NodeJS and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L",
+    "forever": "forever index.js",
+    "nodemon": "./node_modules/.bin/nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninsyloo/web-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninsyloo/web-scraper/issues"
+  },
+  "homepage": "https://github.com/ninsyloo/web-scraper#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
